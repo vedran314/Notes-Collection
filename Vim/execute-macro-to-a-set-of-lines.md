@@ -1,5 +1,8 @@
 # In Vim, how do I apply a macro to a set of lines?
 
+To start recording, press q in normal mode followed by a letter (a to z). That starts recording keystrokes to the specified register. Vim displays recording in the status line. Type any normal mode commands, or enter insert mode and type text. To stop recording, again press q while in normal mode.
+
+To playback your keystrokes, press @ followed by the letter previously chosen. Typing @@ repeats the last playback.
 
 Use the normal command in Ex mode to execute the macro on multiple/all lines:
 
